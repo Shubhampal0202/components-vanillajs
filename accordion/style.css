@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.accordion {
+  width: 70vw;
+  padding: 2rem;
+  background-color: rgb(211, 206, 206);
+}
+.accordion-item{
+  background-color: white;
+}
+.accordion-body {
+  padding: 20px;
+  font-size: 1.2rem;
+  display: none;
+}
+.accordion-header {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  padding: 16px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-header button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+.active{
+  border: 6px solid rgb(138, 138, 177);
+}
